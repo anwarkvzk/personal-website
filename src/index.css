@@ -92,17 +92,22 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+   
+    
 }
 
 .btn:hover{
     background: var(--color-white);
     color: var(--color-bg);
     border-color: transparent;
+    
 }
 
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+    margin-bottom: 11;
+    
 }
 
 img{
@@ -134,3 +139,4 @@ img{
         margin-bottom: 2rem;
     }
 }
+
