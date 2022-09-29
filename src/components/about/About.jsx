@@ -41,7 +41,10 @@ function About() {
             QUALITIES. MY OBJECTIVES ARE TO WORK HARD, LEARN NEW THINGS IN MY
             FIELD AND ENJOY MY CAREER.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <h6>-</h6>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
