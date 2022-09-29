@@ -31,7 +31,7 @@ header {
 }
 
 
-.header__socials ::after {
+.header__socials::after {
     content: '';
     width: 1px;
     height: 2rem;
@@ -44,19 +44,17 @@ header {
     width: 30rem;
     height: 30rem;
     position: absolute;
-    left: calc(50%-11rem);
+    left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
-    
-}
-.me img{
-   justify-content: center;
+
 }
 
+
 /* SCROLL DOWN */
-.scroll__down{
+.scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -68,7 +66,7 @@ header {
 /* =============== MEDIA QUERIES (MEDIAUM DEVICES)  ============= */
 
 @media screen and (max-width: 1024px) {
-    .container{
+    .container {
         height: 68vh;
     }
 }
@@ -76,10 +74,12 @@ header {
 /* =============== MEDIA QUERIES (SMALL DEVICES)  ============= */
 
 @media screen and (max-width: 600px) {
-    header{
+    header {
         height: 100vh;
     }
-    .header__socials,.scroll__down{
+
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
