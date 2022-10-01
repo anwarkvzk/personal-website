@@ -62,8 +62,9 @@
 }
 
 .about__content p {
-    margin: 2re 0 2.6rem;
+    margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    margin-bottom: 0.6rem;
 }
 
 /* =============== MEDIA QUERIES (MEDIAUM DEVICES)  ============= */
