@@ -46,9 +46,12 @@ header {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
+    border-radius: 12rem 12rem 0 0;
     padding: 5rem 1.5rem 1.5rem;
+    display: grid;
+    place-content: center;
+    align-items: center;
 
 }
 
@@ -68,7 +71,28 @@ header {
 @media screen and (max-width: 1024px) {
     .container {
         height: 68vh;
+
     }
+
+    .me {
+
+        display: grid;
+        place-items: center;
+        /* left: calc(5% - 11rem); */
+    }
+
+}
+/* small screen */
+@media screen and (max-width: 1200px) {
+    .me {
+        width: 13rem;
+        left: calc(70% - 11rem);
+        height: 25rem;
+
+    }
+    
+
+
 }
 
 /* =============== MEDIA QUERIES (SMALL DEVICES)  ============= */
@@ -82,4 +106,9 @@ header {
     .scroll__down {
         display: none;
     }
+    .me{
+        display: flex;
+        justify-content: center;
+    }
+
 }

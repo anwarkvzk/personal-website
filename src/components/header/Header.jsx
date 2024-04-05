@@ -7,7 +7,7 @@ import HeaderSocials from "./HeaderSocials";
 function Header() {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container background bg-primary">
         <h5>Hello I'm</h5>
         <h1>Anwar</h1>
         <h5 className="text-light">MERN Stack Developer</h5>
@@ -16,7 +16,9 @@ function Header() {
         <div className="me">
           <img src={ME} alt="me" />
         </div>
-        <a href="#contact" className="scroll__down">Scroll Down</a>
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </header>
   );
