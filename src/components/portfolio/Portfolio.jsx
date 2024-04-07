@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
+import IMG3 from '../../assets/portfolio3.png'
 
 const data = [
   {
@@ -12,11 +13,18 @@ const data = [
     demo: "https://github.com/anwarkvzk/Food-Recipe-App",
   },
   {
-    id: 1,
+    id: 2,
     image: IMG2,
     title: "Netflix-Clone App",
     github: "https://github.com/anwarkvzk/Netflix",
     demo: "https://github.com/anwarkvzk/Netflix",
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: "Buy-Bay Ecommerce App",
+    github: "https://github.com/anwarkvzk/BuyBay_Ecommerce",
+    demo: "https://github.com/anwarkvzk/BuyBay_Ecommerce",
   },
 ];
 
